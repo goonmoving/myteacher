@@ -1,0 +1,10 @@
+{
+  "domain": "perspective",
+  "nodes": [
+    {"id": "perspective", "name": "透视", "parent": null},
+    {"id": "perspective.basic_space", "name": "基础空间关系", "parent": "perspective"},
+    {"id": "perspective.occlusion", "name": "遮挡关系", "parent": "perspective"},
+    {"id": "perspective.proportion", "name": "人体比例", "parent": "perspective"},
+    {"id": "perspective.dynamic_pose", "name": "动态姿势", "parent": "perspective"}
+  ]
+}

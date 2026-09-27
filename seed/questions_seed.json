@@ -1,0 +1,1348 @@
+{
+ "questions": [
+  {
+   "id": "q_seed_perspective_basic_space_concept_40",
+   "node_id": "perspective.basic_space",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「基础空间关系」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「基础空间关系」的要点",
+     "与「基础空间关系」无关的表述",
+     "「基础空间关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「基础空间关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_basic_space_concept_70",
+   "node_id": "perspective.basic_space",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「基础空间关系」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「基础空间关系」的要点",
+     "与「基础空间关系」无关的表述",
+     "「基础空间关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「基础空间关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_basic_space_variant_60",
+   "node_id": "perspective.basic_space",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「基础空间关系」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「基础空间关系」的要点",
+     "与「基础空间关系」无关的表述",
+     "「基础空间关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「基础空间关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_basic_space_transfer_85",
+   "node_id": "perspective.basic_space",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「基础空间关系」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「基础空间关系」的要点",
+     "与「基础空间关系」无关的表述",
+     "「基础空间关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「基础空间关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_occlusion_concept_40",
+   "node_id": "perspective.occlusion",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「遮挡关系」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「遮挡关系」的要点",
+     "与「遮挡关系」无关的表述",
+     "「遮挡关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「遮挡关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_occlusion_concept_70",
+   "node_id": "perspective.occlusion",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「遮挡关系」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「遮挡关系」的要点",
+     "与「遮挡关系」无关的表述",
+     "「遮挡关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「遮挡关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_occlusion_variant_60",
+   "node_id": "perspective.occlusion",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「遮挡关系」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「遮挡关系」的要点",
+     "与「遮挡关系」无关的表述",
+     "「遮挡关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「遮挡关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_occlusion_transfer_85",
+   "node_id": "perspective.occlusion",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「遮挡关系」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「遮挡关系」的要点",
+     "与「遮挡关系」无关的表述",
+     "「遮挡关系」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「遮挡关系」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_proportion_concept_40",
+   "node_id": "perspective.proportion",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「人体比例」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「人体比例」的要点",
+     "与「人体比例」无关的表述",
+     "「人体比例」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「人体比例」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_proportion_concept_70",
+   "node_id": "perspective.proportion",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「人体比例」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「人体比例」的要点",
+     "与「人体比例」无关的表述",
+     "「人体比例」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「人体比例」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_proportion_variant_60",
+   "node_id": "perspective.proportion",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「人体比例」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「人体比例」的要点",
+     "与「人体比例」无关的表述",
+     "「人体比例」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「人体比例」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_proportion_transfer_85",
+   "node_id": "perspective.proportion",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「人体比例」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「人体比例」的要点",
+     "与「人体比例」无关的表述",
+     "「人体比例」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「人体比例」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_dynamic_pose_concept_40",
+   "node_id": "perspective.dynamic_pose",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「动态姿势」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「动态姿势」的要点",
+     "与「动态姿势」无关的表述",
+     "「动态姿势」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「动态姿势」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_dynamic_pose_concept_70",
+   "node_id": "perspective.dynamic_pose",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「动态姿势」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「动态姿势」的要点",
+     "与「动态姿势」无关的表述",
+     "「动态姿势」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「动态姿势」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_dynamic_pose_variant_60",
+   "node_id": "perspective.dynamic_pose",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「动态姿势」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「动态姿势」的要点",
+     "与「动态姿势」无关的表述",
+     "「动态姿势」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「动态姿势」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_perspective_dynamic_pose_transfer_85",
+   "node_id": "perspective.dynamic_pose",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「动态姿势」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「动态姿势」的要点",
+     "与「动态姿势」无关的表述",
+     "「动态姿势」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「动态姿势」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_beat_concept_40",
+   "node_id": "music.beat",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「节拍」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节拍」的要点",
+     "与「节拍」无关的表述",
+     "「节拍」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节拍」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_beat_concept_70",
+   "node_id": "music.beat",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「节拍」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节拍」的要点",
+     "与「节拍」无关的表述",
+     "「节拍」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节拍」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_beat_variant_60",
+   "node_id": "music.beat",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「节拍」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节拍」的要点",
+     "与「节拍」无关的表述",
+     "「节拍」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节拍」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_beat_transfer_85",
+   "node_id": "music.beat",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「节拍」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节拍」的要点",
+     "与「节拍」无关的表述",
+     "「节拍」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节拍」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_rhythm_concept_40",
+   "node_id": "music.rhythm",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「节奏」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节奏」的要点",
+     "与「节奏」无关的表述",
+     "「节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_rhythm_concept_70",
+   "node_id": "music.rhythm",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「节奏」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节奏」的要点",
+     "与「节奏」无关的表述",
+     "「节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_rhythm_variant_60",
+   "node_id": "music.rhythm",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「节奏」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节奏」的要点",
+     "与「节奏」无关的表述",
+     "「节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_rhythm_transfer_85",
+   "node_id": "music.rhythm",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「节奏」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「节奏」的要点",
+     "与「节奏」无关的表述",
+     "「节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_harmony_function_concept_40",
+   "node_id": "music.harmony_function",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「和声功能」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「和声功能」的要点",
+     "与「和声功能」无关的表述",
+     "「和声功能」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「和声功能」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_harmony_function_concept_70",
+   "node_id": "music.harmony_function",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「和声功能」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「和声功能」的要点",
+     "与「和声功能」无关的表述",
+     "「和声功能」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「和声功能」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_harmony_function_variant_60",
+   "node_id": "music.harmony_function",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「和声功能」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「和声功能」的要点",
+     "与「和声功能」无关的表述",
+     "「和声功能」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「和声功能」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_harmony_function_transfer_85",
+   "node_id": "music.harmony_function",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「和声功能」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「和声功能」的要点",
+     "与「和声功能」无关的表述",
+     "「和声功能」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「和声功能」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_melody_expectation_concept_40",
+   "node_id": "music.melody_expectation",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「旋律期待」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「旋律期待」的要点",
+     "与「旋律期待」无关的表述",
+     "「旋律期待」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「旋律期待」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_melody_expectation_concept_70",
+   "node_id": "music.melody_expectation",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「旋律期待」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「旋律期待」的要点",
+     "与「旋律期待」无关的表述",
+     "「旋律期待」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「旋律期待」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_melody_expectation_variant_60",
+   "node_id": "music.melody_expectation",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「旋律期待」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「旋律期待」的要点",
+     "与「旋律期待」无关的表述",
+     "「旋律期待」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「旋律期待」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_melody_expectation_transfer_85",
+   "node_id": "music.melody_expectation",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「旋律期待」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「旋律期待」的要点",
+     "与「旋律期待」无关的表述",
+     "「旋律期待」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「旋律期待」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_orchestration_concept_40",
+   "node_id": "music.orchestration",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「配器」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「配器」的要点",
+     "与「配器」无关的表述",
+     "「配器」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「配器」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_orchestration_concept_70",
+   "node_id": "music.orchestration",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「配器」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「配器」的要点",
+     "与「配器」无关的表述",
+     "「配器」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「配器」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_orchestration_variant_60",
+   "node_id": "music.orchestration",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「配器」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「配器」的要点",
+     "与「配器」无关的表述",
+     "「配器」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「配器」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_music_orchestration_transfer_85",
+   "node_id": "music.orchestration",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「配器」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「配器」的要点",
+     "与「配器」无关的表述",
+     "「配器」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「配器」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_pov_concept_40",
+   "node_id": "literature.pov",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「叙事视角」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「叙事视角」的要点",
+     "与「叙事视角」无关的表述",
+     "「叙事视角」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「叙事视角」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_pov_concept_70",
+   "node_id": "literature.pov",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「叙事视角」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「叙事视角」的要点",
+     "与「叙事视角」无关的表述",
+     "「叙事视角」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「叙事视角」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_pov_variant_60",
+   "node_id": "literature.pov",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「叙事视角」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「叙事视角」的要点",
+     "与「叙事视角」无关的表述",
+     "「叙事视角」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「叙事视角」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_pov_transfer_85",
+   "node_id": "literature.pov",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「叙事视角」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「叙事视角」的要点",
+     "与「叙事视角」无关的表述",
+     "「叙事视角」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「叙事视角」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_imagery_concept_40",
+   "node_id": "literature.imagery",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「意象」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「意象」的要点",
+     "与「意象」无关的表述",
+     "「意象」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「意象」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_imagery_concept_70",
+   "node_id": "literature.imagery",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「意象」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「意象」的要点",
+     "与「意象」无关的表述",
+     "「意象」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「意象」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_imagery_variant_60",
+   "node_id": "literature.imagery",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「意象」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「意象」的要点",
+     "与「意象」无关的表述",
+     "「意象」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「意象」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_imagery_transfer_85",
+   "node_id": "literature.imagery",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「意象」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「意象」的要点",
+     "与「意象」无关的表述",
+     "「意象」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「意象」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_metaphor_concept_40",
+   "node_id": "literature.metaphor",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「隐喻」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「隐喻」的要点",
+     "与「隐喻」无关的表述",
+     "「隐喻」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「隐喻」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_metaphor_concept_70",
+   "node_id": "literature.metaphor",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「隐喻」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「隐喻」的要点",
+     "与「隐喻」无关的表述",
+     "「隐喻」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「隐喻」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_metaphor_variant_60",
+   "node_id": "literature.metaphor",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「隐喻」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「隐喻」的要点",
+     "与「隐喻」无关的表述",
+     "「隐喻」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「隐喻」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_metaphor_transfer_85",
+   "node_id": "literature.metaphor",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「隐喻」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「隐喻」的要点",
+     "与「隐喻」无关的表述",
+     "「隐喻」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「隐喻」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_structure_concept_40",
+   "node_id": "literature.structure",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「结构」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「结构」的要点",
+     "与「结构」无关的表述",
+     "「结构」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「结构」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_structure_concept_70",
+   "node_id": "literature.structure",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「结构」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「结构」的要点",
+     "与「结构」无关的表述",
+     "「结构」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「结构」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_structure_variant_60",
+   "node_id": "literature.structure",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「结构」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「结构」的要点",
+     "与「结构」无关的表述",
+     "「结构」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「结构」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_structure_transfer_85",
+   "node_id": "literature.structure",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「结构」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「结构」的要点",
+     "与「结构」无关的表述",
+     "「结构」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「结构」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_lang_rhythm_concept_40",
+   "node_id": "literature.lang_rhythm",
+   "difficulty": 40,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「语言节奏」(难度 40):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「语言节奏」的要点",
+     "与「语言节奏」无关的表述",
+     "「语言节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「语言节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_lang_rhythm_concept_70",
+   "node_id": "literature.lang_rhythm",
+   "difficulty": 70,
+   "format": "mcq",
+   "kind": "concept",
+   "body": {
+    "prompt": "[seed·概念直测] 「语言节奏」(难度 70):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「语言节奏」的要点",
+     "与「语言节奏」无关的表述",
+     "「语言节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「语言节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_lang_rhythm_variant_60",
+   "node_id": "literature.lang_rhythm",
+   "difficulty": 60,
+   "format": "mcq",
+   "kind": "variant",
+   "body": {
+    "prompt": "[seed·变式应用] 「语言节奏」(难度 60):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「语言节奏」的要点",
+     "与「语言节奏」无关的表述",
+     "「语言节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「语言节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  },
+  {
+   "id": "q_seed_literature_lang_rhythm_transfer_85",
+   "node_id": "literature.lang_rhythm",
+   "difficulty": 85,
+   "format": "mcq",
+   "kind": "transfer",
+   "body": {
+    "prompt": "[seed·迁移检验] 「语言节奏」(难度 85):下面哪项属于该技能的判断?",
+    "options": [
+     "属于「语言节奏」的要点",
+     "与「语言节奏」无关的表述",
+     "「语言节奏」的反面",
+     "与本题无关的方向"
+    ]
+   },
+   "answer_key": {
+    "answer": 0,
+    "rubric_points": [
+     "要点与「语言节奏」一致"
+    ]
+   },
+   "source": "seed",
+   "qc_status": "approved"
+  }
+ ]
+}

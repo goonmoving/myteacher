@@ -1,0 +1,6 @@
+[project]
+name = "myteacher"
+version = "0.1.0"
+description = "学习状态模型:使用者认知地图 + 确定性出题策略 + 可插拔 LLM"
+requires-python = ">=3.9"
+dependencies = []

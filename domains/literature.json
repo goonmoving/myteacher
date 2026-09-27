@@ -1,0 +1,11 @@
+{
+  "domain": "literature",
+  "nodes": [
+    {"id": "literature", "name": "文学", "parent": null},
+    {"id": "literature.pov", "name": "叙事视角", "parent": "literature"},
+    {"id": "literature.imagery", "name": "意象", "parent": "literature"},
+    {"id": "literature.metaphor", "name": "隐喻", "parent": "literature"},
+    {"id": "literature.structure", "name": "结构", "parent": "literature"},
+    {"id": "literature.lang_rhythm", "name": "语言节奏", "parent": "literature"}
+  ]
+}

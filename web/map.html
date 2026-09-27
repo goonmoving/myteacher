@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>myteacher · 认知地图</title>
+<style>
+  :root{
+    --bg:#0f1216; --panel:#171c23; --ink:#e8edf2; --dim:#9aa7b4;
+    --low:#e05252; --mid:#7ac268; --high:#5aa7e8; --est:#c9a54d;
+    --line:#252c35;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:14px/1.6 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  header{padding:14px 20px;border-bottom:1px solid var(--line);
+         display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  header h1{font-size:16px;margin:0;font-weight:600}
+  header .api{color:var(--dim);font-size:12px}
+  select{background:var(--panel);color:var(--ink);border:1px solid var(--line);
+         border-radius:6px;padding:6px 10px}
+  .st{color:var(--dim);font-size:12px}
+  .st.warnc{color:var(--est)}
+  main{padding:18px 20px;max-width:860px;margin:0 auto}
+  h2{font-size:14px;color:var(--dim);margin:18px 0 6px}
+  ul.tree{list-style:none;margin:0;padding-left:0}
+  ul.tree ul{list-style:none;margin:0 0 0 26px;padding:0;
+             border-left:1px solid var(--line)}
+  li.root>.node{background:var(--panel);margin-bottom:10px;padding:12px;
+                border:1px solid var(--line);border-radius:8px}
+  .node{position:relative;padding:7px 10px 7px 6px}
+  .row{display:flex;align-items:center;gap:10px}
+  .name{min-width:120px;font-weight:600}
+  .bar{flex:1;height:10px;background:#242a33;border-radius:5px;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:5px}
+  .pct{width:56px;text-align:right;color:var(--dim);
+       font-variant-numeric:tabular-nums}
+  .m{margin-left:6px;font-size:11px;color:var(--dim)}
+  .badge{font-size:11px;border:1px solid var(--line);border-radius:4px;
+         padding:1px 6px;color:var(--dim);white-space:nowrap}
+  .badge.est{color:var(--est);border-color:var(--est)}
+  .badge.low{color:var(--low);border-color:var(--low)}
+  .badge.high{color:var(--high);border-color:var(--high)}
+  .legend{margin-top:16px;color:var(--dim);font-size:12px;
+          border-top:1px solid var(--line);padding-top:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>myteacher · 认知地图</h1>
+  <select id="domain">
+    <option>perspective</option><option>music</option><option>literature</option>
+  </select>
+  <span class="st" id="status">…</span>
+  <span class="api" id="apihost"></span>
+</header>
+<main id="root"></main>
+
+<script>
+const API = (new URLSearchParams(location.search).get("api")
+             || (location.protocol === "file:" ? "http://127.0.0.1:8787" : ""));
+const NAME = {perspective:"透视", music:"音乐", literature:"文学",
+  "perspective.basic_space":"基础空间关系", "perspective.occlusion":"遮挡关系",
+  "perspective.proportion":"人体比例", "perspective.dynamic_pose":"动态姿势",
+  "music.beat":"节拍", "music.rhythm":"节奏", "music.harmony_function":"和声功能",
+  "music.melody_expectation":"旋律期待", "music.orchestration":"配器",
+  "literature.pov":"叙事视角", "literature.imagery":"意象",
+  "literature.metaphor":"隐喻", "literature.structure":"结构",
+  "literature.lang_rhythm":"语言节奏"};
+
+/* 演示数据:未连 API 时展示 SPEC §2.4 示例地图(状态注明「演示」) */
+const DEMO = {
+  perspective: {basic_space:85, occlusion:78, proportion:61, dynamic_pose:37},
+  music:       {beat:92, rhythm:82, harmony_function:64,
+                melody_expectation:71, orchestration:48},
+  literature:  {pov:76, imagery:72, metaphor:83, structure:61, lang_rhythm:54},
+};
+
+function pctOf(n){ return (n.state && n.state.mastery) ?? 50; }
+function evOf(n){ return (n.state && n.state.evidence_count) ?? 0; }
+function zoneColor(m){ return m<40 ? "var(--low)" :
+                            m>85 ? "var(--high)" : "var(--mid)"; }
+
+function nodeCard(n){
+  const m = pctOf(n), ev = evOf(n), tags = [];
+  if(ev < 3) tags.push(`<span class="badge est">估</span>`);
+  if(m < 40) tags.push(`<span class="badge low">▼ 低洼</span>`);
+  else if(m > 85) tags.push(`<span class="badge high">▲ 精通</span>`);
+  return `<div class="row">
+      <span class="name">${n.name}</span>
+      <div class="bar"><i style="width:${m}%;background:${zoneColor(m)}"></i></div>
+      <span class="pct">${m.toFixed(1)}%</span>
+      ${tags.join("")}
+      <span class="m" title="evidence_count">ev ${ev}</span>
+    </div>`;
+}
+
+function treeHTML(nodes){
+  const byParent = {};
+  nodes.forEach(n => (byParent[n.parent ?? null] ??= []).push(n));
+  const ul = (pid, root) => {
+    const kids = byParent[pid] || [];
+    if(!kids.length) return "";
+    return `<ul class="tree">` + kids.map(n =>
+        `<li${root ? ' class="root"' : ''}>` + nodeCard(n)
+        + ul(n.id, false) + `</li>`).join("") + `</ul>`;
+  };
+  return ul(null, true);
+}
+
+const LEGEND = `<div class="legend">条形 = mastery;▼ 低洼(&lt;40);
+▲ 精通(&gt;85);「估」= 证据 &lt;3(冷启动先验)</div>`;
+
+async function load(){
+  const sel = document.getElementById("domain");
+  const q = new URLSearchParams(location.search);
+  if(q.get("domain")) sel.value = q.get("domain");
+  const domain = sel.value;
+  const st = document.getElementById("status");
+  st.textContent = `${domain}:连接中…`; st.className = "st";
+  try{
+    const r = await fetch(`${API}/v1/map?domain=${domain}`);
+    if(!r.ok) throw new Error(r.status);
+    const data = await r.json();
+    st.textContent = `API ✓ ${domain}`;
+    document.getElementById("root").innerHTML =
+        `<h2>${NAME[domain] || domain}</h2>` + treeHTML(data.nodes) + LEGEND;
+  }catch(e){
+    st.textContent = "未连接 API(下方为演示数据)"; st.className = "st warnc";
+    const root = document.getElementById("root");
+    root.innerHTML = "";
+    for(const [domain, kids] of Object.entries(DEMO)){
+      const rnode = {id: domain, name: NAME[domain], parent: null,
+                     state: {mastery: 50, evidence_count: 0}};
+      const kns = Object.entries(kids).map(([k, v]) => ({
+        id: `${domain}.${k}`, name: NAME[`${domain}.${k}`] || k,
+        parent: domain, state: {mastery: v, evidence_count: 3}}));
+      root.insertAdjacentHTML("beforeend",
+          `<h2>${NAME[domain]}(演示)</h2>` + treeHTML([rnode, ...kns]));
+    }
+    root.insertAdjacentHTML("beforeend", LEGEND);
+  }
+}
+document.getElementById("apihost").textContent
+    = API || "同源(由服务端自带)";
+document.getElementById("domain").addEventListener("change", load);
+load();
+</script>
+</body>
+</html>

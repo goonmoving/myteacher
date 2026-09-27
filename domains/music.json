@@ -1,0 +1,11 @@
+{
+  "domain": "music",
+  "nodes": [
+    {"id": "music", "name": "音乐", "parent": null},
+    {"id": "music.beat", "name": "节拍", "parent": "music"},
+    {"id": "music.rhythm", "name": "节奏", "parent": "music"},
+    {"id": "music.harmony_function", "name": "和声功能", "parent": "music"},
+    {"id": "music.melody_expectation", "name": "旋律期待", "parent": "music"},
+    {"id": "music.orchestration", "name": "配器", "parent": "music"}
+  ]
+}
